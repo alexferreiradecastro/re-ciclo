@@ -47,7 +47,7 @@ if( strlen($_POST['nome']) > 3 &&  strlen($_POST['email']) > 3 && strlen($_POST[
 
                         $resultado =  mysqli_fetch_all($sqlemail);
 
-                        // Verificação se há e-mail igual
+                        // Verifir se há outro e-mail igual
 
                         if ($resultado != null){
 
